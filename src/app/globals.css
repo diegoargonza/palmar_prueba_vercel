@@ -28,6 +28,7 @@ html{
 }
 
 body{
+  margin-top: 80px;
   font-size: 1.6rem;
   font-family: "lato", sans-serif;
   background-color: var(--gris-claro);

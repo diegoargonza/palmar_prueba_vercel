@@ -34,7 +34,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar 
-      position="static" 
+      position="fixed" 
       sx={{ 
         backgroundColor: '#825E44',
         boxShadow: 'none'
@@ -46,7 +46,7 @@ function ResponsiveAppBar() {
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
           
           {/* 🟢 LOGO + NOMBRE */}
-          <Box sx={{ display: 'flex', alignItems: 'center', ml: 1 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', ml: 1}}>
             <Image 
               src="/img/palmera.png" 
               alt="logo" 
