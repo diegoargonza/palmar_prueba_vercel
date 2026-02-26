@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: BellMT;
+  src: url("./assets/fonts/Bell\ MT\ Regular.otf");
+}
+
+:root{
+  --primario: #67BF56;
+  --primario_claro: #89DF75;
+  --primario_oscuro: #227E17;
+  --blanco: #FFF;
+  --fondo: #FCFCFC;
+}
+
+html{
+  font-family: BellMT;
+  scroll-behavior: smooth;
+  font-size: 63.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 1.6rem;
+  font-family: "lato", sans-serif;
+  background-color: var(--gris-claro);
+}
+
+.wrapper {
+  margin: 0 auto;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  background-color: var(--fondo);
+}
+
+.btn{
+  background-color: var(--primario);
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--blanco);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+/* colores con tailwindcss */
+
+@theme{
+  --color-primario-oscuro: #227E17;
+  --color-cafe-neutro: #825E44;
+  --color-tema-texto: #734F2F;
+  --color-verde-elementos: #44803F;
+  --color-amarillo: #F28705;
+}
+
+@layer base{
+  p{
+    @apply text-tema-texto
+  }
+  h1, h2, h3 {
+      @apply text-tema-texto
+  }
+
+}
