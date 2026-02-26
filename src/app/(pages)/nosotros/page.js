@@ -9,7 +9,7 @@ export const metadata={
 function Nosotros(){
     return(
         <>
-        <div className=" place-content-center mt-10 md:mt-20  p-8  md:w-auto">
+        <div className=" place-content-center mt-10 md:mt-20  p-8 md:w-auto">
             <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold">Nosotros</h1>
             <div className="md:flex   space-x-10 items-center  mt-15 ">
                 <div className="mt-10 md:mt-0 text-justify w-full ">
