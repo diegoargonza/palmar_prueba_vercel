@@ -99,6 +99,7 @@ function ResponsiveAppBar() {
                 onClick={handleCloseNavMenu}
                 component={Link}
                 href={page.path}
+                sx={{fontSize: {xs: '1.5rem', sm: '1.5rem'}}}
               >
                 {page.name}
               </MenuItem>
